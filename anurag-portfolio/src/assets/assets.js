@@ -1,4 +1,11 @@
-import { FaLightbulb, FaPaintBrush, FaCode } from "react-icons/fa";
+import { 
+  FaLightbulb, 
+  FaPaintBrush, 
+  FaCode,
+  FaReact,
+  FaServer,
+  FaDatabase
+} from "react-icons/fa";
 
 export const aboutInfo = [
   {
@@ -21,5 +28,26 @@ export const aboutInfo = [
     description:
       "I write maintainable, efficient code following best practices and modern patterns.",
     color: "text-blue-500",
+  },
+];
+
+export const skills = [
+  {
+    title: "Frontend Development",
+    icon: FaReact,
+    description: "Building user interfaces and responsive designs.",
+    tags: ["HTML", "CSS", "Bootstrap", "JavaScript", "React"],
+  },
+  {
+    title: "Backend Development",
+    icon: FaServer,
+    description: "Server-side development and application logic.",
+    tags: ["Python", "Django"],
+  },
+  {
+    title: "Database",
+    icon: FaDatabase,
+    description: "Working with databases and queries.",
+    tags: ["SQL", "NoSQL"],
   },
 ];
