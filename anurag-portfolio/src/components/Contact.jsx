@@ -93,38 +93,48 @@ function Contact() {
                 <p className="text-gray-400">9026067073</p>
               </div>
             </div>
-
-            {/* Social Links */}
-            <div className="pt-4">
-              <h3 className="text-white font-semibold mb-2">Follow Me</h3>
-              <div className="flex space-x-4">
-                <a
-                  href="https://github.com/yourusername"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-purple hover:bg-purple/20 transition duration-300"
-                >
-                  <FaGithub />
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/yourusername/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-blue hover:bg-blue/20 transition duration-300"
-                >
-                  <FaLinkedin />
-                </a>
-                <a
-                  href="https://www.instagram.com/yourusername/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-pink hover:bg-pink/20 transition duration-300"
-                >
-                  <FaInstagram />
-                </a>
-              </div>
-            </div>
-            {/* End Social Links */}
+          {/* Social Links */}
+         <div className="pt-6">
+           <h3 className="text-white font-semibold mb-3 text-lg tracking-wide">
+             Connect with Me
+           </h3>
+         
+           <div className="flex gap-4">
+             {/* GitHub */}
+             <a
+               href="https://github.com/panditanurag1626"
+               target="_blank"
+               rel="noopener noreferrer"
+               className="group w-12 h-12 flex items-center justify-center rounded-full bg-gray-800 text-gray-300 
+               hover:bg-purple-600 hover:text-white transition-all duration-300 shadow-md hover:shadow-purple-500/40 hover:scale-110"
+             >
+               <FaGithub className="text-lg group-hover:rotate-6 transition-transform" />
+             </a>
+         
+             {/* LinkedIn */}
+             <a
+               href="https://www.linkedin.com/in/anurag-mishra-7b15072a5"
+               target="_blank"
+               rel="noopener noreferrer"
+               className="group w-12 h-12 flex items-center justify-center rounded-full bg-gray-800 text-gray-300 
+               hover:bg-blue-600 hover:text-white transition-all duration-300 shadow-md hover:shadow-blue-500/40 hover:scale-110"
+             >
+               <FaLinkedin className="text-lg group-hover:rotate-6 transition-transform" />
+             </a>
+         
+             {/* Instagram */}
+             <a
+               href="https://www.instagram.com/_anurag4057/"
+               target="_blank"
+               rel="noopener noreferrer"
+               className="group w-12 h-12 flex items-center justify-center rounded-full bg-gray-800 text-gray-300 
+               hover:bg-pink-600 hover:text-white transition-all duration-300 shadow-md hover:shadow-pink-500/40 hover:scale-110"
+             >
+               <FaInstagram className="text-lg group-hover:rotate-6 transition-transform" />
+             </a>
+           </div>
+         </div>
+         {/* End Social Links */}
           </div>
         </div>
       </div>

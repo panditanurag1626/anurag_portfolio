@@ -111,7 +111,7 @@ export const projects = [
     image: "/hotel-management.png",
     tech: ["HTML", "CSS", "Bootstrap", "JavaScript", "React-JS"],
     icons: [FaHtml5, FaCss3Alt, FaBootstrap, FaJsSquare, FaReact],
-    view: "https://hotel-management-website.vercel.app/",
+    view: "https://hotel-managament-website.vercel.app/",
   },
 ];
 
